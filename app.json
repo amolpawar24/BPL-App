@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "BPL App",
+    "slug": "bpl-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icons/icon.png",
+    "scheme": "bplapp",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "icon": "./assets/icons/icon.png"
+    },
+    "android": {
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anpnexus.bplapp"
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/icons/icon.png"
+    },
+    "plugins": [],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "369228cd-a2e0-4077-8187-d32f53e36422"
+      }
+    },
+    "owner": "anp-nexus"
+  }
+}
